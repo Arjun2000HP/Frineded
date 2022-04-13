@@ -148,7 +148,7 @@ function draw() {
 }
 
 async function APITime(){
-  respondent= await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
+  respondent= await fetch("https://worldtimeapi.org/api/timezone/Asia/Kolkata");
   returne= await respondent.json();
    day= returne.datetime;
    time=day.slice(11,13);
