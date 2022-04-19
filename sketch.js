@@ -67,7 +67,7 @@ function setup() {
   levnig.visible=false;
   
   ulcyimg=loadImage("Screenshot (4).png");
-  ulcy=createSprite(400,110)
+  ulcy=createSprite(400,170)
   ulcy.addImage(ulcyimg)
   ulcy.scale=0.8;
   ulcy.visible=false;
